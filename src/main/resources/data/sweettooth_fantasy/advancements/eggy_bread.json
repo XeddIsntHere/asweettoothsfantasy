@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "sweettooth_fantasy:cooked_french_toast"
+    },
+    "title": {
+      "translate": "advancements.eggy_bread.title"
+    },
+    "description": {
+      "translate": "advancements.eggy_bread.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eggy_bread": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "sweettooth_fantasy:cooked_french_toast"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "sweettooth_fantasy:cooked_french_toast_recipe"
+    ]
+  },
+  "parent": "sweettooth_fantasy:what_a_sweet_tooth"
+}

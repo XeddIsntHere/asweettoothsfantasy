@@ -1,0 +1,28 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "slice_bread",
+    "customModelName": "Normal",
+    "name": "Sliced Bread",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "(You make the texture Isaiah)"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ASweetToothsFantasy"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1,
+    "saturation": 0.3,
+    "eatingSpeed": 20,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

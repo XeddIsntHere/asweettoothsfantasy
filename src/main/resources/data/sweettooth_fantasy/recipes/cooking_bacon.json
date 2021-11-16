@@ -1,0 +1,12 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sweettooth_fantasy:raw_bacon"
+  },
+  "result": {
+    "item": "sweettooth_fantasy:cooked_bacon"
+  }
+}

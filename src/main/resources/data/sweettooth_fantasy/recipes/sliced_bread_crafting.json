@@ -1,0 +1,16 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "sweettooth_fantasy:knife"
+    }
+  ],
+  "result": {
+    "item": "sweettooth_fantasy:sliced_bread",
+    "count": 5
+  }
+}

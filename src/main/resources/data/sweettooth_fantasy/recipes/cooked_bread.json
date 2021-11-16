@@ -1,0 +1,12 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sweettooth_fantasy:sliced_bread"
+  },
+  "result": {
+    "item": "sweettooth_fantasy:toast"
+  }
+}

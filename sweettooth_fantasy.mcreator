@@ -952,6 +952,159 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cinnamon_sugar_r"
+    },
+    {
+      "name": "Bacon",
+      "type": "food",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_bacon"
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knife"
+    },
+    {
+      "name": "CuttingBacon",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutting_bacon"
+    },
+    {
+      "name": "CookedBacon",
+      "type": "food",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_bacon"
+    },
+    {
+      "name": "CookingBacon",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooking_bacon"
+    },
+    {
+      "name": "BaconAdvancement",
+      "type": "achievement",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bacon_advancement"
+    },
+    {
+      "name": "CraftingKnife",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_knife"
+    },
+    {
+      "name": "SlicedBread",
+      "type": "food",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sliced_bread"
+    },
+    {
+      "name": "Toast",
+      "type": "food",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toast"
+    },
+    {
+      "name": "SlicedBreadCrafting",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sliced_bread_crafting"
+    },
+    {
+      "name": "CookedBread",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_bread"
+    },
+    {
+      "name": "FrenchToast",
+      "type": "food",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_french_toast"
+    },
+    {
+      "name": "FrenchToastCrafting",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "french_toast_crafting"
+    },
+    {
+      "name": "CookedFrenchToast",
+      "type": "food",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_french_toast"
+    },
+    {
+      "name": "CookedFrenchToastRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_french_toast_recipe"
+    },
+    {
+      "name": "EggyBread",
+      "type": "achievement",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eggy_bread"
+    },
+    {
+      "name": "Candiedbacon",
+      "type": "food",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candiedbacon"
     }
   ],
   "variable_elements": [],
@@ -965,14 +1118,18 @@
       "item.a_sweettooths_fantasy.chocolate_coin": "Chocolate Coin",
       "advancements.what_kind_of_cookie.descr": "Cook and eat a lump of cookie dough",
       "item.sweettooth_fantasy.goldfoil": "Gold Foil",
+      "item.sweettooth_fantasy.raw_bacon": "Raw Bacon",
       "item.sweettooth_fantasy.mintleaf": "Mint Leaf",
       "item.a_sweettooths_fantasy.caramelapple": "Caramel Apple",
       "block.a_sweettooths_fantasy.cinnamontree": "Cinnamontree",
       "item.sweettooth_fantasy.ironwrappedchocolatecoin": "Iron Wrapped Chocolate Coin",
+      "item.sweettooth_fantasy.raw_french_toast": "Raw French Toast",
       "advancements.what_kind_of_cookie.title": "What Kind of Cookie is This?",
+      "advancements.eggy_bread.title": "Eggy Bread",
       "item.sweettooth_fantasy.doughnut": "Donut",
       "item.sweettooth_fantasy.groundcinnamon": "Ground Cinnamon",
       "block.sweettooth_fantasy.cinnamon_leaves": "Cinnamon Leaves",
+      "advancements.eggy_bread.descr": "You ate French toast",
       "item.a_sweettooths_fantasy.flour": "Flour",
       "item.a_sweettooths_fantasy.rockcandy": "Rock Candy",
       "block.sweettooth_fantasy.cinnamon_log_bare": "Bare Cinnamon Log",
@@ -981,7 +1138,9 @@
       "item.sweettooth_fantasy.cinnamon_bark": "Cinnamon Bark",
       "item.sweettooth_fantasy.wrapped_chocolate_coin": "Gold Wrapped Chocolate Coin",
       "item.sweettooth_fantasy.peppermint": "Peppermint",
+      "item.sweettooth_fantasy.toast": "Toast",
       "item.a_sweettooths_fantasy.gummycubes": "Gummy Cubes",
+      "item.sweettooth_fantasy.knife": "Knife",
       "item.sweettooth_fantasy.wrapped_chocolatebar": "Wrapped Chocolate Bar",
       "item.sweettooth_fantasy.mortarandpestle": "Mortar and Pestle",
       "item.sweettooth_fantasy.gummy_fish": "Gummy Fish",
@@ -991,6 +1150,7 @@
       "item.a_sweettooths_fantasy.cinnamon": "Cinnamon",
       "item.sweettooth_fantasy.cinnamon": "Cinnamon",
       "item.a_sweettooths_fantasy.gelatin": "Gelatin",
+      "advancements.bacon_advancement.title": "Bring Home The Bacon",
       "item.sweettooth_fantasy.candy_corn": "Candy Corn",
       "item.sweettooth_fantasy.lolipop": "Lolipop",
       "item.sweettooth_fantasy.cinnamon_sugar": "Cinnamon Sugar",
@@ -1009,6 +1169,8 @@
       "item.a_sweettooths_fantasy.vanilla_bean": "Vanilla Beans",
       "item.sweettooth_fantasy.salt": "Salt",
       "item.sweettooth_fantasy.caramel": "Caramel",
+      "item.sweettooth_fantasy.cooked_french_toast": "Cooked French Toast",
+      "item.sweettooth_fantasy.sliced_bread": "Sliced Bread",
       "item.a_sweettooths_fantasy.doughnut": "Donut",
       "item.a_sweettooths_fantasy.caramel": "Caramel",
       "item.sweettooth_fantasy.vanilla": "Vanilla",
@@ -1025,6 +1187,7 @@
       "item.sweettooth_fantasy.marshmallow_toasted": "Toasted Marshmallow",
       "item.a_sweettooths_fantasy.lolipop": "Lolipop",
       "item.a_sweettooths_fantasy.vanilla": "Vanilla",
+      "item.sweettooth_fantasy.cooked_bacon": "Cooked Bacon",
       "item.sweettooth_fantasy.licorice_string": "Red Licorice String",
       "item.a_sweettooths_fantasy.goldfoil": "Gold Foil",
       "item.a_sweettooths_fantasy.mintleaf": "Mint Leaf",
@@ -1039,7 +1202,9 @@
       "block.sweettooth_fantasy.cinnamonlogstripped": "Stripped Cinnamon Log",
       "item.sweettooth_fantasy.cookiedoughcooked": "Cooked Cookie Dough",
       "item.a_sweettooths_fantasy.chocolate_bar": "Chocolate Bar",
-      "item.sweettooth_fantasy.sweet_berry_muffin": "Sweet Berry Muffin"
+      "item.sweettooth_fantasy.sweet_berry_muffin": "Sweet Berry Muffin",
+      "item.sweettooth_fantasy.candiedbacon": "Candied Bacon WIP",
+      "advancements.bacon_advancement.descr": "You cooked bacon!"
     }
   },
   "foldersRoot": {
