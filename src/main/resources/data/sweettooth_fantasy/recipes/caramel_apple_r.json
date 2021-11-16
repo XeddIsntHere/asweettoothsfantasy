@@ -1,0 +1,30 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "sweettooth_fantasy:caramel"
+    },
+    "3": {
+      "item": "sweettooth_fantasy:caramel"
+    },
+    "4": {
+      "item": "minecraft:apple"
+    },
+    "5": {
+      "item": "sweettooth_fantasy:caramel"
+    },
+    "7": {
+      "item": "sweettooth_fantasy:caramel"
+    }
+  },
+  "result": {
+    "item": "sweettooth_fantasy:caramelapple",
+    "count": 1
+  }
+}

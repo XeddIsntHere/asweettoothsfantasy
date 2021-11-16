@@ -1,0 +1,19 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "sweettooth_fantasy:chocolate_bar"
+    },
+    {
+      "item": "sweettooth_fantasy:goldfoil"
+    }
+  ],
+  "result": {
+    "item": "sweettooth_fantasy:wrapped_chocolatebar",
+    "count": 1
+  }
+}

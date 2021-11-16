@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="sweettooth_fantasy"
+version="1.2.0"
+displayName="A SweetTooth's Fantasy"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Xedd, MCreator"
+description='''
+Treat your SweetTooth with a nice snack!
+'''
+
+[[dependencies.sweettooth_fantasy]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

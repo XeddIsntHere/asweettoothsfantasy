@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 7,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "CUSTOM:Mortarandpestle"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Flour"
+    },
+    "name": "flourrecipe_7",
+    "namespace": "mod"
+  }
+}

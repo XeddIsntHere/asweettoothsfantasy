@@ -1,0 +1,12 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "sweettooth_fantasy:marshmallow"
+  },
+  "result": {
+    "item": "sweettooth_fantasy:marshmallow_toasted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "sweettooth_fantasy:salt"
+    },
+    {
+      "item": "sweettooth_fantasy:gelatin"
+    },
+    {
+      "item": "sweettooth_fantasy:gelatin"
+    }
+  ],
+  "result": {
+    "item": "sweettooth_fantasy:b_licorice_string",
+    "count": 2
+  }
+}

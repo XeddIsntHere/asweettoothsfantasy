@@ -1,0 +1,36 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "sweettooth_fantasy:cookiedoughraw"
+    },
+    "3": {
+      "item": "sweettooth_fantasy:cookiedoughraw"
+    },
+    "4": {
+      "item": "sweettooth_fantasy:gummycubes"
+    },
+    "5": {
+      "item": "sweettooth_fantasy:cookiedoughraw"
+    },
+    "6": {
+      "item": "sweettooth_fantasy:cinnamon"
+    },
+    "7": {
+      "item": "minecraft:sugar"
+    },
+    "8": {
+      "item": "sweettooth_fantasy:cinnamon"
+    }
+  },
+  "result": {
+    "item": "sweettooth_fantasy:gingerbread_man",
+    "count": 2
+  }
+}

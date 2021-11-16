@@ -1,0 +1,22 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "sweettooth_fantasy:gelatin"
+    },
+    {
+      "item": "sweettooth_fantasy:gelatin"
+    }
+  ],
+  "result": {
+    "item": "sweettooth_fantasy:licorice_string",
+    "count": 2
+  }
+}

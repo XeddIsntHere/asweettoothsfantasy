@@ -1,0 +1,22 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "sweettooth_fantasy:cinnamon"
+    },
+    {
+      "item": "sweettooth_fantasy:sodacan"
+    },
+    {
+      "item": "sweettooth_fantasy:vanilla"
+    }
+  ],
+  "result": {
+    "item": "sweettooth_fantasy:soda",
+    "count": 1
+  }
+}

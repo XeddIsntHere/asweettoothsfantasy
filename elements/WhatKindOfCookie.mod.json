@@ -1,0 +1,25 @@
+{
+  "_fv": 18,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "What Kind of Cookie is This?",
+    "achievementDescription": "Cook and eat a lump of cookie dough",
+    "achievementIcon": {
+      "value": "CUSTOM:Cookiedoughcooked"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:WhatASweetTooth"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"34\" y=\"24\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Cookiedoughcooked</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "sweettooth_fantasy:gelatin"
+    },
+    {
+      "item": "sweettooth_fantasy:gelatin"
+    },
+    {
+      "item": "sweettooth_fantasy:vanilla"
+    }
+  ],
+  "result": {
+    "item": "sweettooth_fantasy:marshmallow",
+    "count": 2
+  }
+}

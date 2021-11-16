@@ -1,0 +1,8 @@
+{
+  "parent": "sweettooth_fantasy:custom/cinnamon_log_3",
+  "textures": {
+    "all": "sweettooth_fantasy:blocks/cinnamon_logs",
+    "particle": "sweettooth_fantasy:blocks/cinnamon_logs",
+    "0": "sweettooth_fantasy:blocks/cinnamon_logs"
+  }
+}

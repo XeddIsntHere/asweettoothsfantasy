@@ -1,0 +1,36 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sweettooth_fantasy:ironfoil"
+    },
+    "2": {
+      "item": "sweettooth_fantasy:ironfoil"
+    },
+    "3": {
+      "item": "minecraft:red_dye"
+    },
+    "5": {
+      "item": "minecraft:red_dye"
+    },
+    "6": {
+      "item": "sweettooth_fantasy:ironfoil"
+    },
+    "7": {
+      "item": "sweettooth_fantasy:ironfoil"
+    },
+    "8": {
+      "item": "sweettooth_fantasy:ironfoil"
+    }
+  },
+  "result": {
+    "item": "sweettooth_fantasy:sodacan",
+    "count": 2
+  }
+}

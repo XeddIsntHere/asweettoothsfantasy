@@ -1,0 +1,22 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "sweettooth_fantasy:flour"
+    },
+    {
+      "item": "sweettooth_fantasy:flour"
+    }
+  ],
+  "result": {
+    "item": "sweettooth_fantasy:cookiedoughraw",
+    "count": 2
+  }
+}

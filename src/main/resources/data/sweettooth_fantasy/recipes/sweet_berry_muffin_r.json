@@ -1,0 +1,36 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "minecraft:wheat"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "minecraft:wheat"
+    },
+    "4": {
+      "item": "minecraft:sweet_berries"
+    },
+    "5": {
+      "item": "minecraft:wheat"
+    },
+    "7": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "sweettooth_fantasy:sweet_berry_muffin",
+    "count": 2
+  }
+}

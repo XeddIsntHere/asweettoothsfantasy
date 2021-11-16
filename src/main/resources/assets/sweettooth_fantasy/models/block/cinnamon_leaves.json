@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "sweettooth_fantasy:blocks/cinnamon_leaves_biome",
+    "particle": "sweettooth_fantasy:blocks/cinnamon_leaves_biome"
+  }
+}

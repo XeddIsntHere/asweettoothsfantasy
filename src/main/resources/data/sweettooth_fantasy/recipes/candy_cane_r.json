@@ -1,0 +1,27 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "sweettooth_fantasy:mintleaf"
+    },
+    "6": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "sweettooth_fantasy:candy_cane",
+    "count": 2
+  }
+}

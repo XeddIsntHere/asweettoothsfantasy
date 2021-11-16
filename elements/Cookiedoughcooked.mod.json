@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_cookie_dough",
+    "customModelName": "Normal",
+    "name": "Cooked Cookie Dough",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Still a little raw in the middle, Maybe you could have made it a little flatter."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ASweetToothsFantasy"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 0.19999999999999998,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

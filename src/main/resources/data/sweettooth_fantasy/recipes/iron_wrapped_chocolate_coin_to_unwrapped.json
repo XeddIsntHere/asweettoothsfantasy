@@ -1,0 +1,13 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sweettooth_fantasy:ironwrappedchocolatecoin"
+    }
+  ],
+  "result": {
+    "item": "sweettooth_fantasy:chocolate_coin",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "sweettooth_fantasy:gelatin"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "sweettooth_fantasy:gelatin"
+    },
+    "4": {
+      "item": "minecraft:beetroot"
+    },
+    "5": {
+      "item": "sweettooth_fantasy:gelatin"
+    },
+    "6": {
+      "item": "minecraft:sugar"
+    },
+    "7": {
+      "item": "sweettooth_fantasy:gelatin"
+    }
+  },
+  "result": {
+    "item": "sweettooth_fantasy:gummy_fish",
+    "count": 3
+  }
+}

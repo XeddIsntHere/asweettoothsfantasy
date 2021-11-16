@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Cookiedoughraw"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Cookiedoughcooked"
+    },
+    "name": "uncooked_to_cooked_cookie_dough",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,1083 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "ASweetToothsFantasy",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_sweet_tooths_fantasy"
+    },
+    {
+      "name": "Mintleaf",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mintleaf"
+    },
+    {
+      "name": "VanillaBean",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vanilla_bean"
+    },
+    {
+      "name": "Vanilla",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vanilla"
+    },
+    {
+      "name": "Grassdrops",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grassdrops",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VanillaBeanToVanilla",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vanilla_bean_to_vanilla"
+    },
+    {
+      "name": "Caramel",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caramel"
+    },
+    {
+      "name": "SugarToCaramel",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sugar_to_caramel"
+    },
+    {
+      "name": "Goldfoil",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldfoil"
+    },
+    {
+      "name": "Ironfoil",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironfoil"
+    },
+    {
+      "name": "IronToFoil",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_to_foil"
+    },
+    {
+      "name": "GoldToFoil",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_to_foil"
+    },
+    {
+      "name": "ChocolateBar",
+      "type": "food",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_bar"
+    },
+    {
+      "name": "WrappedChocolatebar",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrapped_chocolatebar"
+    },
+    {
+      "name": "WrappedToUnwrappedChocolateBar",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrapped_to_unwrapped_chocolate_bar"
+    },
+    {
+      "name": "ChocolateBarR",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_bar_r"
+    },
+    {
+      "name": "WrappedChocolateBarR",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrapped_chocolate_bar_r"
+    },
+    {
+      "name": "Doughnut",
+      "type": "food",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doughnut"
+    },
+    {
+      "name": "DonutR",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "donut_r"
+    },
+    {
+      "name": "Caramelapple",
+      "type": "food",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caramelapple"
+    },
+    {
+      "name": "CaramelAppleR",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caramel_apple_r"
+    },
+    {
+      "name": "ChocolateCoin",
+      "type": "food",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_coin"
+    },
+    {
+      "name": "WrappedChocolateCoin",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrapped_chocolate_coin"
+    },
+    {
+      "name": "UnwrappedToWrappedChocolateCoin",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unwrapped_to_wrapped_chocolate_coin"
+    },
+    {
+      "name": "WrappedToUnwrappedChocolateCoin",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrapped_to_unwrapped_chocolate_coin"
+    },
+    {
+      "name": "ChocolateCoinR",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_coin_r"
+    },
+    {
+      "name": "Gummycubes",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gummycubes"
+    },
+    {
+      "name": "GummyCubesR",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gummy_cubes_r"
+    },
+    {
+      "name": "Sodacan",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sodacan"
+    },
+    {
+      "name": "Soda",
+      "type": "food",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soda"
+    },
+    {
+      "name": "SodaCanR",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soda_can_r"
+    },
+    {
+      "name": "SodaR",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soda_r"
+    },
+    {
+      "name": "Peppermint",
+      "type": "food",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "peppermint"
+    },
+    {
+      "name": "CandyCane",
+      "type": "food",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_cane"
+    },
+    {
+      "name": "PeppermintR",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "peppermint_r"
+    },
+    {
+      "name": "CandyCaneR",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_cane_r"
+    },
+    {
+      "name": "WhatASweetTooth",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "what_a_sweet_tooth"
+    },
+    {
+      "name": "Stonedrops",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonedrops",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt"
+    },
+    {
+      "name": "LicoriceString",
+      "type": "food",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "licorice_string"
+    },
+    {
+      "name": "BLicoriceString",
+      "type": "food",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_licorice_string"
+    },
+    {
+      "name": "LicoriceStringR",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "licorice_string_r"
+    },
+    {
+      "name": "BLicoriceStringR",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "b_licorice_string_r"
+    },
+    {
+      "name": "Ironwrappedchocolatecoin",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironwrappedchocolatecoin"
+    },
+    {
+      "name": "UnwrappedToIronWrappedChocolateCoin",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unwrapped_to_iron_wrapped_chocolate_coin"
+    },
+    {
+      "name": "IronWrappedChocolateCoinToUnwrapped",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_wrapped_chocolate_coin_to_unwrapped"
+    },
+    {
+      "name": "Mortarandpestle",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mortarandpestle"
+    },
+    {
+      "name": "Flour",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flour"
+    },
+    {
+      "name": "Flourrecipe1",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flourrecipe_1"
+    },
+    {
+      "name": "Mortarandpestler",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mortarandpestler"
+    },
+    {
+      "name": "Flourrecipe2",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flourrecipe_2"
+    },
+    {
+      "name": "Flourrecipe3",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flourrecipe_3"
+    },
+    {
+      "name": "Flourrecipe4",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flourrecipe_4"
+    },
+    {
+      "name": "Flourrecipe5",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flourrecipe_5"
+    },
+    {
+      "name": "Flourrecipe6",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flourrecipe_6"
+    },
+    {
+      "name": "Flourrecipe7",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flourrecipe_7"
+    },
+    {
+      "name": "Flourrecipe8",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flourrecipe_8"
+    },
+    {
+      "name": "Cookiedoughraw",
+      "type": "food",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookiedoughraw"
+    },
+    {
+      "name": "Cookiedoughcooked",
+      "type": "food",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookiedoughcooked"
+    },
+    {
+      "name": "Cookiedoughr",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookiedoughr"
+    },
+    {
+      "name": "UncookedToCookedCookieDough",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uncooked_to_cooked_cookie_dough"
+    },
+    {
+      "name": "WhatKindOfCookie",
+      "type": "achievement",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "what_kind_of_cookie"
+    },
+    {
+      "name": "Gelatin",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gelatin"
+    },
+    {
+      "name": "BoneMealToGelatin",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bone_meal_to_gelatin"
+    },
+    {
+      "name": "ChocolateEgg",
+      "type": "food",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_egg"
+    },
+    {
+      "name": "ChocolateEggR",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_egg_r"
+    },
+    {
+      "name": "Cinnamon",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamon"
+    },
+    {
+      "name": "GingerbreadMan",
+      "type": "food",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gingerbread_man"
+    },
+    {
+      "name": "GingerbreadManR",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gingerbread_man_r"
+    },
+    {
+      "name": "CandyCorn",
+      "type": "food",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_corn"
+    },
+    {
+      "name": "CandyCornR",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_corn_r"
+    },
+    {
+      "name": "Lolipop",
+      "type": "food",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lolipop"
+    },
+    {
+      "name": "Rockcandy",
+      "type": "food",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rockcandy"
+    },
+    {
+      "name": "LolipopR",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lolipop_r"
+    },
+    {
+      "name": "RockCandyR",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_candy_r"
+    },
+    {
+      "name": "SweetBerryMuffin",
+      "type": "food",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sweet_berry_muffin"
+    },
+    {
+      "name": "SweetBerryMuffinR",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sweet_berry_muffin_r"
+    },
+    {
+      "name": "GummyFish",
+      "type": "food",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gummy_fish"
+    },
+    {
+      "name": "GummyFishR",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gummy_fish_r"
+    },
+    {
+      "name": "Marshmallow",
+      "type": "food",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marshmallow"
+    },
+    {
+      "name": "MarshmallowR",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marshmallow_r"
+    },
+    {
+      "name": "MarshmallowToasted",
+      "type": "food",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marshmallow_toasted"
+    },
+    {
+      "name": "ToastedMarshmalloR",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toasted_marshmallo_r"
+    },
+    {
+      "name": "Cinnamonlog",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamonlog"
+    },
+    {
+      "name": "Cinnamonlogstripped",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamonlogstripped"
+    },
+    {
+      "name": "CinnamonLogBare",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamon_log_bare"
+    },
+    {
+      "name": "CinnamonlogOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamonlog_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CinnamonBark",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamon_bark"
+    },
+    {
+      "name": "CinnamonlogstrippedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamonlogstripped_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Uncookedtocookedcinnamon",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uncookedtocookedcinnamon"
+    },
+    {
+      "name": "CinnamonLeaves",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamon_leaves"
+    },
+    {
+      "name": "Groundcinnamon",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "groundcinnamon"
+    },
+    {
+      "name": "CinnamonSugar",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamon_sugar"
+    },
+    {
+      "name": "ASweetToothsFantasyBlocks",
+      "type": "tab",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_sweet_tooths_fantasy_blocks"
+    },
+    {
+      "name": "UngroundToGroundCinnamon",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unground_to_ground_cinnamon"
+    },
+    {
+      "name": "CinnamonSugarR",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cinnamon_sugar_r"
+    },
+    {
+      "name": "MintExtract",
+      "type": "potion",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mint_extract"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.sweettooth_fantasy.gummycubes": "Gummy Cubes",
+      "item.a_sweettooths_fantasy.candy_corn": "Candy Corn",
+      "item.a_sweettooths_fantasy.peppermint": "Peppermint",
+      "item.minecraft.tipped_arrow.effect.mint_extract": "Arrow of Mint Extract",
+      "item.sweettooth_fantasy.cookiedoughraw": "Cookie Dough",
+      "item.a_sweettooths_fantasy.chocolate_coin": "Chocolate Coin",
+      "advancements.what_kind_of_cookie.descr": "Cook and eat a lump of cookie dough",
+      "item.sweettooth_fantasy.goldfoil": "Gold Foil",
+      "item.sweettooth_fantasy.mintleaf": "Mint Leaf",
+      "item.a_sweettooths_fantasy.caramelapple": "Caramel Apple",
+      "block.a_sweettooths_fantasy.cinnamontree": "Cinnamontree",
+      "item.sweettooth_fantasy.ironwrappedchocolatecoin": "Iron Wrapped Chocolate Coin",
+      "item.minecraft.splash_potion.effect.mint_extract": "Splash Mint Extract",
+      "advancements.what_kind_of_cookie.title": "What Kind of Cookie is This?",
+      "item.sweettooth_fantasy.doughnut": "Donut",
+      "item.sweettooth_fantasy.groundcinnamon": "Ground Cinnamon",
+      "block.sweettooth_fantasy.cinnamon_leaves": "Cinnamon Leaves",
+      "item.a_sweettooths_fantasy.flour": "Flour",
+      "item.a_sweettooths_fantasy.rockcandy": "Rock Candy",
+      "block.sweettooth_fantasy.cinnamon_log_bare": "Bare Cinnamon Log",
+      "item.sweettooth_fantasy.sodacan": "Soda Can",
+      "item.sweettooth_fantasy.flour": "Flour",
+      "item.sweettooth_fantasy.cinnamon_bark": "Cinnamon Bark",
+      "item.sweettooth_fantasy.wrapped_chocolate_coin": "Gold Wrapped Chocolate Coin",
+      "item.sweettooth_fantasy.peppermint": "Peppermint",
+      "item.a_sweettooths_fantasy.gummycubes": "Gummy Cubes",
+      "item.sweettooth_fantasy.wrapped_chocolatebar": "Wrapped Chocolate Bar",
+      "item.sweettooth_fantasy.mortarandpestle": "Mortar and Pestle",
+      "item.sweettooth_fantasy.gummy_fish": "Gummy Fish",
+      "item.a_sweettooths_fantasy.licorice_string": "Red Licorice String",
+      "advancements.what_a_sweet_tooth.title": "What A Sweet Tooth!",
+      "item.sweettooth_fantasy.candy_cane": "Candy Cane",
+      "item.a_sweettooths_fantasy.cinnamon": "Cinnamon",
+      "item.sweettooth_fantasy.cinnamon": "Cinnamon",
+      "item.a_sweettooths_fantasy.gelatin": "Gelatin",
+      "item.sweettooth_fantasy.candy_corn": "Candy Corn",
+      "item.sweettooth_fantasy.lolipop": "Lolipop",
+      "item.sweettooth_fantasy.cinnamon_sugar": "Cinnamon Sugar",
+      "block.sweettooth_fantasy.cinnamonlog": "Cinnamon log",
+      "item.a_sweettooths_fantasy.cookiedoughraw": "Cookie Dough",
+      "item.sweettooth_fantasy.ironfoil": "Iron Foil",
+      "item.sweettooth_fantasy.chocolate_coin": "Chocolate Coin",
+      "item.a_sweettooths_fantasy.wrapped_chocolate_coin": "Gold Wrapped Chocolate Coin",
+      "item.a_sweettooths_fantasy.b_licorice_string": "Black Licorice String",
+      "item.a_sweettooths_fantasy.wrapped_chocolatebar": "Wrapped Chocolate Bar",
+      "item.a_sweettooths_fantasy.soda": "Soda",
+      "item.sweettooth_fantasy.soda": "Soda",
+      "item.a_sweettooths_fantasy.chocolate_egg": "Chocolate Egg",
+      "item.a_sweettooths_fantasy.ironwrappedchocolatecoin": "Iron Wrapped Chocolate Coin",
+      "item.a_sweettooths_fantasy.salt": "Salt",
+      "item.a_sweettooths_fantasy.vanilla_bean": "Vanilla Beans",
+      "item.sweettooth_fantasy.salt": "Salt",
+      "item.sweettooth_fantasy.caramel": "Caramel",
+      "item.a_sweettooths_fantasy.doughnut": "Donut",
+      "item.a_sweettooths_fantasy.caramel": "Caramel",
+      "item.sweettooth_fantasy.vanilla": "Vanilla",
+      "item.sweettooth_fantasy.caramelapple": "Caramel Apple",
+      "effect.mint_extract": "Minty Fresh",
+      "item.sweettooth_fantasy.rockcandy": "Rock Candy",
+      "item.sweettooth_fantasy.gingerbread_man": "Gingerbread Man",
+      "item.minecraft.lingering_potion.effect.mint_extract": "Lingering Mint Extract",
+      "item.sweettooth_fantasy.chocolate_egg": "Chocolate Egg",
+      "item.sweettooth_fantasy.gelatin": "Gelatin",
+      "item.minecraft.potion.effect.mint_extract": "Mint Extract",
+      "advancements.what_a_sweet_tooth.descr": "You ate your first Chocolate Bar!",
+      "item.sweettooth_fantasy.vanilla_bean": "Vanilla Beans",
+      "item.sweettooth_fantasy.b_licorice_string": "Black Licorice String",
+      "item.a_sweettooths_fantasy.ironfoil": "Iron Foil",
+      "item.a_sweettooths_fantasy.mortarandpestle": "Mortar and Pestle",
+      "item.sweettooth_fantasy.marshmallow_toasted": "Toasted Marshmallow",
+      "item.a_sweettooths_fantasy.lolipop": "Lolipop",
+      "item.a_sweettooths_fantasy.vanilla": "Vanilla",
+      "item.sweettooth_fantasy.licorice_string": "Red Licorice String",
+      "item.a_sweettooths_fantasy.goldfoil": "Gold Foil",
+      "item.a_sweettooths_fantasy.mintleaf": "Mint Leaf",
+      "itemGroup.taba_sweet_tooths_fantasy": "A Sweet Tooth\u0027s Fantasy",
+      "item.a_sweettooths_fantasy.sodacan": "Soda Can",
+      "item.a_sweettooths_fantasy.cookiedoughcooked": "Cooked Cookie Dough",
+      "item.a_sweettooths_fantasy.candy_cane": "Candy Cane",
+      "item.sweettooth_fantasy.marshmallow": "Marshmallow",
+      "item.sweettooth_fantasy.chocolate_bar": "Chocolate Bar",
+      "item.a_sweettooths_fantasy.gingerbread_man": "Gingerbread Man",
+      "itemGroup.taba_sweet_tooths_fantasy_blocks": "A Sweet Tooths Fantasy Blocks",
+      "block.sweettooth_fantasy.cinnamonlogstripped": "Stripped Cinnamon Log",
+      "item.sweettooth_fantasy.cookiedoughcooked": "Cooked Cookie Dough",
+      "item.a_sweettooths_fantasy.chocolate_bar": "Chocolate Bar",
+      "item.sweettooth_fantasy.sweet_berry_muffin": "Sweet Berry Muffin"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sweettooth_fantasy",
+    "modName": "A SweetTooth\u0027s Fantasy",
+    "version": "1.2.0",
+    "description": "Treat your SweetTooth with a nice snack!",
+    "author": "Xedd, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.asweettoothsfantasy",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
