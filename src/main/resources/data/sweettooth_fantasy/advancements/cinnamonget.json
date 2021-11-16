@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "sweettooth_fantasy:cinnamon"
+    },
+    "title": {
+      "translate": "advancements.cinnamonget.title"
+    },
+    "description": {
+      "translate": "advancements.cinnamonget.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cinnamonget": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "sweettooth_fantasy:what_a_sweet_tooth"
+}
