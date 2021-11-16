@@ -1,29 +1,24 @@
 
 package net.mcreator.asweettoothsfantasy.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.asweettoothsfantasy.itemgroup.ASweetToothsFantasyItemGroup;
-import net.mcreator.asweettoothsfantasy.SweettoothFantasyModElements;
-
 @SweettoothFantasyModElements.ModElement.Tag
 public class IronfoilItem extends SweettoothFantasyModElements.ModElement {
+
 	@ObjectHolder("sweettooth_fantasy:ironfoil")
 	public static final Item block = null;
+
 	public IronfoilItem(SweettoothFantasyModElements instance) {
 		super(instance, 8);
+
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(ASweetToothsFantasyItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("ironfoil");
@@ -43,5 +38,7 @@ public class IronfoilItem extends SweettoothFantasyModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
+
 	}
+
 }

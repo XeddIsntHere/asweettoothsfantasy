@@ -1,17 +1,9 @@
 
 package net.mcreator.asweettoothsfantasy.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.mcreator.asweettoothsfantasy.block.CinnamonLeavesBlock;
-import net.mcreator.asweettoothsfantasy.SweettoothFantasyModElements;
-
 @SweettoothFantasyModElements.ModElement.Tag
 public class ASweetToothsFantasyBlocksItemGroup extends SweettoothFantasyModElements.ModElement {
+
 	public ASweetToothsFantasyBlocksItemGroup(SweettoothFantasyModElements instance) {
 		super(instance, 97);
 	}
@@ -22,7 +14,7 @@ public class ASweetToothsFantasyBlocksItemGroup extends SweettoothFantasyModElem
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(CinnamonLeavesBlock.block, (int) (1));
+				return new ItemStack(CinnamonLeavesBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -31,5 +23,7 @@ public class ASweetToothsFantasyBlocksItemGroup extends SweettoothFantasyModElem
 			}
 		};
 	}
+
 	public static ItemGroup tab;
+
 }
