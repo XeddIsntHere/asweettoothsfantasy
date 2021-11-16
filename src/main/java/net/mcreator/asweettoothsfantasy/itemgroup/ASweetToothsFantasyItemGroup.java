@@ -1,9 +1,17 @@
 
 package net.mcreator.asweettoothsfantasy.itemgroup;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+
+import net.mcreator.asweettoothsfantasy.item.CaramelItem;
+import net.mcreator.asweettoothsfantasy.SweettoothFantasyModElements;
+
 @SweettoothFantasyModElements.ModElement.Tag
 public class ASweetToothsFantasyItemGroup extends SweettoothFantasyModElements.ModElement {
-
 	public ASweetToothsFantasyItemGroup(SweettoothFantasyModElements instance) {
 		super(instance, 1);
 	}
@@ -23,7 +31,5 @@ public class ASweetToothsFantasyItemGroup extends SweettoothFantasyModElements.M
 			}
 		};
 	}
-
 	public static ItemGroup tab;
-
 }

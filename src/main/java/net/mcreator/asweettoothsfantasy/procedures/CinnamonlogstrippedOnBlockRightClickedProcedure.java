@@ -1,7 +1,31 @@
 package net.mcreator.asweettoothsfantasy.procedures;
 
-public class CinnamonlogstrippedOnBlockRightClickedProcedure {
+import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.state.Property;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.AxeItem;
+import net.minecraft.entity.item.ItemEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.asweettoothsfantasy.item.CinnamonBarkItem;
+import net.mcreator.asweettoothsfantasy.block.CinnamonlogstrippedBlock;
+import net.mcreator.asweettoothsfantasy.block.CinnamonLogBareBlock;
+import net.mcreator.asweettoothsfantasy.SweettoothFantasyMod;
+
+import java.util.Random;
+import java.util.Map;
+
+public class CinnamonlogstrippedOnBlockRightClickedProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
@@ -28,13 +52,11 @@ public class CinnamonlogstrippedOnBlockRightClickedProcedure {
 				SweettoothFantasyMod.LOGGER.warn("Failed to load dependency world for procedure CinnamonlogstrippedOnBlockRightClicked!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		boolean cinnamon_bark_drops = false;
 		double grassdrops = 0;
 		double Cinnamon_Bark_Drops = 0;
@@ -51,9 +73,7 @@ public class CinnamonlogstrippedOnBlockRightClickedProcedure {
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockState _bs = CinnamonLogBareBlock.block.getDefaultState();
-
 				BlockState _bso = world.getBlockState(_bp);
-
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 					Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
 					if (_property != null && _bs.get(_property) != null)
@@ -62,16 +82,13 @@ public class CinnamonlogstrippedOnBlockRightClickedProcedure {
 						} catch (Exception e) {
 						}
 				}
-
 				TileEntity _te = world.getTileEntity(_bp);
 				CompoundNBT _bnbt = null;
 				if (_te != null) {
 					_bnbt = _te.write(new CompoundNBT());
 					_te.remove();
 				}
-
 				world.setBlockState(_bp, _bs, 3);
-
 				if (_bnbt != null) {
 					_te = world.getTileEntity(_bp);
 					if (_te != null) {
@@ -105,5 +122,4 @@ public class CinnamonlogstrippedOnBlockRightClickedProcedure {
 			}
 		}
 	}
-
 }
