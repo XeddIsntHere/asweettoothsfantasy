@@ -1096,15 +1096,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "eggy_bread"
-    },
-    {
-      "name": "Candiedbacon",
-      "type": "food",
-      "sortid": 116,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "candiedbacon"
     }
   ],
   "variable_elements": [],
@@ -1203,7 +1194,6 @@
       "item.sweettooth_fantasy.cookiedoughcooked": "Cooked Cookie Dough",
       "item.a_sweettooths_fantasy.chocolate_bar": "Chocolate Bar",
       "item.sweettooth_fantasy.sweet_berry_muffin": "Sweet Berry Muffin",
-      "item.sweettooth_fantasy.candiedbacon": "Candied Bacon WIP",
       "advancements.bacon_advancement.descr": "You cooked bacon!"
     }
   },
