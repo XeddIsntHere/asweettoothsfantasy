@@ -1,0 +1,19 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sweettooth_fantasy:cooked_bacon"
+    },
+    {
+      "item": "sweettooth_fantasy:brown_suger"
+    },
+    {
+      "item": "sweettooth_fantasy:caramel"
+    }
+  ],
+  "result": {
+    "item": "sweettooth_fantasy:candied_bacon",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "sweettooth_fantasy:mortarandpestle"
+    }
+  ],
+  "result": {
+    "item": "sweettooth_fantasy:molasses",
+    "count": 1
+  }
+}

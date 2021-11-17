@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "slice_bread",
+    "texture": "wip",
     "customModelName": "Normal",
     "name": "Toast",
     "rarity": "COMMON",

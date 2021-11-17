@@ -19,11 +19,11 @@ import net.mcreator.asweettoothsfantasy.SweettoothFantasyModElements;
 import java.util.List;
 
 @SweettoothFantasyModElements.ModElement.Tag
-public class BaconItem extends SweettoothFantasyModElements.ModElement {
-	@ObjectHolder("sweettooth_fantasy:raw_bacon")
+public class HoneySweetRollItem extends SweettoothFantasyModElements.ModElement {
+	@ObjectHolder("sweettooth_fantasy:honey_sweet_roll")
 	public static final Item block = null;
-	public BaconItem(SweettoothFantasyModElements instance) {
-		super(instance, 100);
+	public HoneySweetRollItem(SweettoothFantasyModElements instance) {
+		super(instance, 116);
 	}
 
 	@Override
@@ -33,8 +33,8 @@ public class BaconItem extends SweettoothFantasyModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ASweetToothsFantasyItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(1).saturation(0.3f).meat().build()));
-			setRegistryName("raw_bacon");
+					.food((new Food.Builder()).hunger(15).saturation(0.3f).build()));
+			setRegistryName("honey_sweet_roll");
 		}
 
 		@Override
@@ -45,7 +45,7 @@ public class BaconItem extends SweettoothFantasyModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("(You make the texture isaiah)"));
+			list.add(new StringTextComponent("(You make the texture Isaiah)"));
 		}
 	}
 }

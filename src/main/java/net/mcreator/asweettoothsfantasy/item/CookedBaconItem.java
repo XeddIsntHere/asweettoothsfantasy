@@ -33,7 +33,7 @@ public class CookedBaconItem extends SweettoothFantasyModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ASweetToothsFantasyItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(8).saturation(0.3f).meat().build()));
+					.food((new Food.Builder()).hunger(6).saturation(0.3f).meat().build()));
 			setRegistryName("cooked_bacon");
 		}
 

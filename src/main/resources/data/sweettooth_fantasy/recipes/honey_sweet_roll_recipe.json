@@ -1,0 +1,30 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:honey_bottle"
+    },
+    "3": {
+      "item": "sweettooth_fantasy:cinnamon_sugar"
+    },
+    "4": {
+      "item": "sweettooth_fantasy:cookiedoughraw"
+    },
+    "5": {
+      "item": "sweettooth_fantasy:cinnamon_sugar"
+    },
+    "7": {
+      "item": "sweettooth_fantasy:flour"
+    }
+  },
+  "result": {
+    "item": "sweettooth_fantasy:raw_honey_sweet_roll",
+    "count": 1
+  }
+}

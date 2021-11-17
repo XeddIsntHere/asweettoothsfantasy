@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "vanilla_beans",
+    "texture": "wip",
     "customModelName": "Normal",
     "name": "Raw Bacon",
     "rarity": "COMMON",
@@ -14,7 +14,7 @@
       "value": "CUSTOM:ASweetToothsFantasy"
     },
     "stackSize": 64,
-    "nutritionalValue": 3,
+    "nutritionalValue": 1,
     "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {

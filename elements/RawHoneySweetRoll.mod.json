@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "wip",
     "customModelName": "Normal",
-    "name": "Cooked Bacon",
+    "name": "Raw Honey Sweet Roll",
     "rarity": "COMMON",
     "specialInfo": [
       "(You make the texture Isaiah)"
@@ -20,7 +20,7 @@
     "resultItem": {
       "value": ""
     },
-    "forDogs": true,
+    "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "eat",
     "hasGlow": false

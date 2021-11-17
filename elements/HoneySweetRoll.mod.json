@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "wip",
     "customModelName": "Normal",
-    "name": "Cooked Bacon",
+    "name": "Honey Sweet Roll",
     "rarity": "COMMON",
     "specialInfo": [
       "(You make the texture Isaiah)"
@@ -14,13 +14,13 @@
       "value": "CUSTOM:ASweetToothsFantasy"
     },
     "stackSize": 64,
-    "nutritionalValue": 6,
+    "nutritionalValue": 15,
     "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {
       "value": ""
     },
-    "forDogs": true,
+    "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "eat",
     "hasGlow": false

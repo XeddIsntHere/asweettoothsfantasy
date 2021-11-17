@@ -1,0 +1,12 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sweettooth_fantasy:raw_honey_sweet_roll"
+  },
+  "result": {
+    "item": "sweettooth_fantasy:honey_sweet_roll"
+  }
+}

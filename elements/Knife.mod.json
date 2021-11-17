@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "vanilla_beans",
+    "texture": "wip",
     "customModelName": "Normal",
     "name": "Knife",
     "specialInfo": [
