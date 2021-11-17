@@ -3,13 +3,11 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "slice_bread",
+    "texture": "bread_slice",
     "customModelName": "Normal",
     "name": "Sliced Bread",
     "rarity": "COMMON",
-    "specialInfo": [
-      "(You make the texture Isaiah)"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ASweetToothsFantasy"
     },

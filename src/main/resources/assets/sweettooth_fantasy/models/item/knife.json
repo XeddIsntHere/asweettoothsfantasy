@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "sweettooth_fantasy:items/wip"
+    "layer0": "sweettooth_fantasy:items/knife"
   }
 }

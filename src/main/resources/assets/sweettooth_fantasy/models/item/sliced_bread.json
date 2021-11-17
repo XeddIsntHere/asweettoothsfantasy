@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "sweettooth_fantasy:items/slice_bread"
+    "layer0": "sweettooth_fantasy:items/bread_slice"
   }
 }

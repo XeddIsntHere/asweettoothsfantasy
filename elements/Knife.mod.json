@@ -3,12 +3,10 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "wip",
+    "texture": "knife",
     "customModelName": "Normal",
     "name": "Knife",
-    "specialInfo": [
-      "(You make the texture Isaiah)"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ASweetToothsFantasy"
     },

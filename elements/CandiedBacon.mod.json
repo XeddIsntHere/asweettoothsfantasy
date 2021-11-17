@@ -3,18 +3,16 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "wip",
+    "texture": "candied_bacon",
     "customModelName": "Normal",
     "name": "Candied Bacon",
     "rarity": "COMMON",
-    "specialInfo": [
-      "(You make the texture Isaiah)"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ASweetToothsFantasy"
     },
     "stackSize": 64,
-    "nutritionalValue": 10,
+    "nutritionalValue": 7,
     "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {
