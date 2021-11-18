@@ -1,0 +1,28 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "wip",
+    "customModelName": "Normal",
+    "name": "Brownie",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "(You make the texture Isaiah)"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ASweetToothsFantasy"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 7,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

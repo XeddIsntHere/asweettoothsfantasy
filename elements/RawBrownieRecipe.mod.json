@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Flour"
       },
       {
-        "value": ""
+        "value": "Items.EGG"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Groundcinnamon"
+        "value": "CUSTOM:Flour"
       },
       {
         "value": "Items.SUGAR"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ChocolateBar"
       },
       {
-        "value": "CUSTOM:Mortarandpestle"
+        "value": "Items.SUGAR"
       },
       {
-        "value": ""
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.WHEAT"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CinnamonSugar"
+      "value": "CUSTOM:RawBrownie"
     },
-    "name": "cinnamon_sugar_r",
+    "name": "raw_brownie_recipe",
     "namespace": "mod"
   }
 }

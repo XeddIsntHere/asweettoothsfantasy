@@ -1,0 +1,42 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sweettooth_fantasy:flour"
+    },
+    "1": {
+      "item": "minecraft:egg"
+    },
+    "2": {
+      "item": "sweettooth_fantasy:flour"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "sweettooth_fantasy:chocolate_bar"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    },
+    "6": {
+      "item": "minecraft:wheat"
+    },
+    "7": {
+      "item": "minecraft:milk_bucket"
+    },
+    "8": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "sweettooth_fantasy:raw_brownie",
+    "count": 1
+  }
+}

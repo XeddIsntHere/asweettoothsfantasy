@@ -3,13 +3,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "sweettooth_fantasy:mortarandpestle"
-    },
-    {
       "item": "minecraft:apple"
     },
     {
       "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "sweettooth_fantasy:mortarandpestle"
     }
   ],
   "result": {
