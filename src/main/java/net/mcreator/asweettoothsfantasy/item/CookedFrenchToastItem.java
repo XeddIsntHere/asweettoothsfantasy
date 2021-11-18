@@ -33,7 +33,7 @@ public class CookedFrenchToastItem extends SweettoothFantasyModElements.ModEleme
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ASweetToothsFantasyItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(8).saturation(0.3f).build()));
+					.food((new Food.Builder()).hunger(6).saturation(0.3f).build()));
 			setRegistryName("cooked_french_toast");
 		}
 

@@ -3,18 +3,16 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "wip",
+    "texture": "raw_french_toast",
     "customModelName": "Normal",
     "name": "Raw French Toast",
     "rarity": "COMMON",
-    "specialInfo": [
-      "(You make the texture Isaiah)"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ASweetToothsFantasy"
     },
     "stackSize": 64,
-    "nutritionalValue": 2,
+    "nutritionalValue": 1,
     "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {
