@@ -3,17 +3,17 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:sugar_cane"
+      "item": "sweettooth_fantasy:mortarandpestle"
     },
     {
-      "item": "sweettooth_fantasy:mortarandpestle"
+      "item": "minecraft:apple"
     },
     {
       "item": "minecraft:glass_bottle"
     }
   ],
   "result": {
-    "item": "sweettooth_fantasy:molasses",
+    "item": "sweettooth_fantasy:apple_jam",
     "count": 1
   }
 }

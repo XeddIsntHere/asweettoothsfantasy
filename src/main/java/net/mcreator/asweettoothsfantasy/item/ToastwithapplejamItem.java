@@ -13,11 +13,11 @@ import net.mcreator.asweettoothsfantasy.itemgroup.ASweetToothsFantasyItemGroup;
 import net.mcreator.asweettoothsfantasy.SweettoothFantasyModElements;
 
 @SweettoothFantasyModElements.ModElement.Tag
-public class ToastItem extends SweettoothFantasyModElements.ModElement {
-	@ObjectHolder("sweettooth_fantasy:toast")
+public class ToastwithapplejamItem extends SweettoothFantasyModElements.ModElement {
+	@ObjectHolder("sweettooth_fantasy:toastwithapplejam")
 	public static final Item block = null;
-	public ToastItem(SweettoothFantasyModElements instance) {
-		super(instance, 108);
+	public ToastwithapplejamItem(SweettoothFantasyModElements instance) {
+		super(instance, 129);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class ToastItem extends SweettoothFantasyModElements.ModElement {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ASweetToothsFantasyItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(4).saturation(0.3f).build()));
-			setRegistryName("toast");
+			setRegistryName("toastwithapplejam");
 		}
 
 		@Override

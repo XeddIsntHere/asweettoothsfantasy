@@ -3,24 +3,24 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "molasses",
+    "texture": "toast_with_apple_jam",
     "customModelName": "Normal",
-    "name": "Molasses",
+    "name": "Toast with Apple Jam",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ASweetToothsFantasy"
     },
-    "stackSize": 16,
-    "nutritionalValue": 3,
+    "stackSize": 64,
+    "nutritionalValue": 4,
     "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {
-      "value": "CUSTOM:Molasses"
+      "value": ""
     },
     "forDogs": false,
     "isAlwaysEdible": false,
-    "animation": "drink",
+    "animation": "eat",
     "hasGlow": false
   }
 }

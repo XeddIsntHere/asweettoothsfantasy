@@ -3,9 +3,9 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "bread_slice",
+    "texture": "bread_slice_new",
     "customModelName": "Normal",
-    "name": "Sliced Bread",
+    "name": "Bread Slice",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {

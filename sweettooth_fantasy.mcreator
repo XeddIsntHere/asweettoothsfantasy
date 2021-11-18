@@ -1143,15 +1143,6 @@
       "registry_name": "brown_suger"
     },
     {
-      "name": "Molasses",
-      "type": "item",
-      "sortid": 121,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "molasses"
-    },
-    {
       "name": "MolassesRecipe",
       "type": "recipe",
       "sortid": 122,
@@ -1186,6 +1177,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "candied_bacon_recipe"
+    },
+    {
+      "name": "Molasses",
+      "type": "food",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molasses"
+    },
+    {
+      "name": "AppleJam",
+      "type": "food",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apple_jam"
+    },
+    {
+      "name": "AppleJamRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apple_jam_recipe"
+    },
+    {
+      "name": "Toastwithapplejam",
+      "type": "food",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toastwithapplejam"
+    },
+    {
+      "name": "ToastWithAppleJamRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toast_with_apple_jam_recipe"
     }
   ],
   "variable_elements": [],
@@ -1222,6 +1258,7 @@
       "item.a_sweettooths_fantasy.vanilla_bean": "Vanilla Beans",
       "item.sweettooth_fantasy.salt": "Salt",
       "item.a_sweettooths_fantasy.doughnut": "Donut",
+      "item.sweettooth_fantasy.toastwithapplejam": "Toast with Apple Jam",
       "item.sweettooth_fantasy.gelatin": "Gelatin",
       "advancements.what_a_sweet_tooth.descr": "You ate your first Chocolate Bar!",
       "item.sweettooth_fantasy.vanilla_bean": "Vanilla Beans",
@@ -1233,6 +1270,7 @@
       "item.a_sweettooths_fantasy.goldfoil": "Gold Foil",
       "item.a_sweettooths_fantasy.mintleaf": "Mint Leaf",
       "item.sweettooth_fantasy.marshmallow": "Marshmallow",
+      "item.sweettooth_fantasy.apple_jam": "Apple Jam",
       "itemGroup.taba_sweet_tooths_fantasy_blocks": "A Sweet Tooths Fantasy Blocks",
       "block.sweettooth_fantasy.cinnamonlogstripped": "Stripped Cinnamon Log",
       "item.sweettooth_fantasy.cookiedoughcooked": "Cooked Cookie Dough",
@@ -1273,7 +1311,7 @@
       "item.a_sweettooths_fantasy.salt": "Salt",
       "item.sweettooth_fantasy.caramel": "Caramel",
       "item.sweettooth_fantasy.cooked_french_toast": "Cooked French Toast",
-      "item.sweettooth_fantasy.sliced_bread": "Sliced Bread",
+      "item.sweettooth_fantasy.sliced_bread": "Bread Slice",
       "item.a_sweettooths_fantasy.caramel": "Caramel",
       "item.sweettooth_fantasy.vanilla": "Vanilla",
       "item.sweettooth_fantasy.caramelapple": "Caramel Apple",

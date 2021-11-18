@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
@@ -16,11 +17,11 @@ import net.mcreator.asweettoothsfantasy.itemgroup.ASweetToothsFantasyItemGroup;
 import net.mcreator.asweettoothsfantasy.SweettoothFantasyModElements;
 
 @SweettoothFantasyModElements.ModElement.Tag
-public class MolassesItem extends SweettoothFantasyModElements.ModElement {
-	@ObjectHolder("sweettooth_fantasy:molasses")
+public class AppleJamItem extends SweettoothFantasyModElements.ModElement {
+	@ObjectHolder("sweettooth_fantasy:apple_jam")
 	public static final Item block = null;
-	public MolassesItem(SweettoothFantasyModElements instance) {
-		super(instance, 126);
+	public AppleJamItem(SweettoothFantasyModElements instance) {
+		super(instance, 127);
 	}
 
 	@Override
@@ -31,7 +32,7 @@ public class MolassesItem extends SweettoothFantasyModElements.ModElement {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ASweetToothsFantasyItemGroup.tab).maxStackSize(16).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(3).saturation(0.3f).build()));
-			setRegistryName("molasses");
+			setRegistryName("apple_jam");
 		}
 
 		@Override
@@ -46,7 +47,7 @@ public class MolassesItem extends SweettoothFantasyModElements.ModElement {
 
 		@Override
 		public ItemStack onItemUseFinish(ItemStack itemstack, World world, LivingEntity entity) {
-			ItemStack retval = new ItemStack(MolassesItem.block);
+			ItemStack retval = new ItemStack(Items.GLASS_BOTTLE);
 			super.onItemUseFinish(itemstack, world, entity);
 			if (itemstack.isEmpty()) {
 				return retval;

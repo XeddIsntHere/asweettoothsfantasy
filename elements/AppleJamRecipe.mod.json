@@ -13,16 +13,16 @@
         "value": ""
       },
       {
-        "value": "Blocks.REEDS"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:Mortarandpestle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.APPLE"
       },
       {
         "value": "Items.GLASS_BOTTLE"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Molasses"
+      "value": "CUSTOM:AppleJam"
     },
-    "name": "molasses_recipe",
+    "name": "apple_jam_recipe",
     "namespace": "mod"
   }
 }

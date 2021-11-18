@@ -3,13 +3,11 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "wip",
+    "texture": "toasted_bread_slice",
     "customModelName": "Normal",
     "name": "Toast",
     "rarity": "COMMON",
-    "specialInfo": [
-      "(You make the texture Isaiah)"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ASweetToothsFantasy"
     },

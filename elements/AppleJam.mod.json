@@ -3,9 +3,9 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "molasses",
+    "texture": "apple_jam",
     "customModelName": "Normal",
-    "name": "Molasses",
+    "name": "Apple Jam",
     "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
@@ -16,7 +16,7 @@
     "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {
-      "value": "CUSTOM:Molasses"
+      "value": "Items.GLASS_BOTTLE"
     },
     "forDogs": false,
     "isAlwaysEdible": false,
