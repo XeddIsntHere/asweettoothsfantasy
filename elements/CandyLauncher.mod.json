@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "rock_candy_weapon",
+    "customModelName": "Normal",
+    "name": "Candy Launcher",
+    "specialInfo": [
+      "This uses Burned Rock Candy as ammo."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ASweetToothsFantasy"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:RockCandyWeapon"
+    },
+    "shootConstantly": false,
+    "usageCount": 300,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 1.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 5.5,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:RockCandyWeapon"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

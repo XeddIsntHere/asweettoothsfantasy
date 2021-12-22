@@ -1,0 +1,12 @@
+{
+  "group": "sweettooth_fantasy",
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "sweettooth_fantasy:raw_bacon"
+  },
+  "result": {
+    "item": "sweettooth_fantasy:cooked_bacon"
+  }
+}

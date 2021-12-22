@@ -14,9 +14,10 @@
   "item.sweettooth_fantasy.cinnamon_bark": "Cinnamon Bark",
   "item.sweettooth_fantasy.wrapped_chocolate_coin": "Gold Wrapped Chocolate Coin",
   "item.sweettooth_fantasy.toast": "Toast",
-  "item.sweettooth_fantasy.knife": "Knife",
   "item.a_sweettooths_fantasy.gummycubes": "Gummy Cubes",
+  "item.sweettooth_fantasy.knife": "Knife",
   "item.sweettooth_fantasy.brown_sugar": "Brown Sugar",
+  "item.sweettooth_fantasy.rock_candy_weapon": "Burned Rock Candy",
   "item.sweettooth_fantasy.cinnamon": "Cinnamon",
   "item.a_sweettooths_fantasy.gelatin": "Gelatin",
   "advancements.bacon_advancement.title": "Bring Home The Bacon",
@@ -53,6 +54,7 @@
   "item.a_sweettooths_fantasy.peppermint": "Peppermint",
   "item.a_sweettooths_fantasy.chocolate_coin": "Chocolate Coin",
   "item.sweettooth_fantasy.goldfoil": "Gold Foil",
+  "item.sweettooth_fantasy.candy_launcher": "Candy Launcher",
   "item.a_sweettooths_fantasy.caramelapple": "Caramel Apple",
   "block.a_sweettooths_fantasy.cinnamontree": "Cinnamontree",
   "advancements.what_kind_of_cookie.title": "What Kind of Cookie is This?",
@@ -100,5 +102,5 @@
   "item.a_sweettooths_fantasy.candy_cane": "Candy Cane",
   "item.sweettooth_fantasy.chocolate_bar": "Chocolate Bar",
   "item.a_sweettooths_fantasy.gingerbread_man": "Gingerbread Man",
-  "advancements.bacon_advancement.descr": "You cooked bacon!"
+  "advancements.bacon_advancement.descr": "You ate cooked bacon!"
 }

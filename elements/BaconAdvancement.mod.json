@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Bring Home The Bacon",
-    "achievementDescription": "You cooked bacon!",
+    "achievementDescription": "You ate cooked bacon!",
     "achievementIcon": {
       "value": "CUSTOM:CookedBacon"
     },
