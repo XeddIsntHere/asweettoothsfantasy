@@ -1312,6 +1312,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mug_r"
+    },
+    {
+      "name": "Pan",
+      "type": "item",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pan"
+    },
+    {
+      "name": "Pot",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pot"
+    },
+    {
+      "name": "PanR",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pan_r"
+    },
+    {
+      "name": "PotR",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pot_r"
     }
   ],
   "variable_elements": [],
@@ -1368,6 +1404,7 @@
       "itemGroup.taba_sweet_tooths_fantasy_blocks": "A Sweet Tooths Fantasy Blocks",
       "block.sweettooth_fantasy.cinnamonlogstripped": "Stripped Cinnamon Log",
       "item.sweettooth_fantasy.cookiedoughcooked": "Cooked Cookie Dough",
+      "item.sweettooth_fantasy.pan": "Sheet Pan",
       "item.a_sweettooths_fantasy.chocolate_bar": "Chocolate Bar",
       "item.sweettooth_fantasy.sweet_berry_muffin": "Sweet Berry Muffin",
       "item.a_sweettooths_fantasy.candy_corn": "Candy Corn",
@@ -1393,6 +1430,7 @@
       "advancements.what_a_sweet_tooth.title": "What A Sweet Tooth!",
       "item.sweettooth_fantasy.candy_cane": "Candy Cane",
       "item.a_sweettooths_fantasy.cinnamon": "Cinnamon",
+      "item.sweettooth_fantasy.pot": "Pot",
       "item.sweettooth_fantasy.molasses": "Molasses",
       "item.sweettooth_fantasy.candy_corn": "Candy Corn",
       "item.sweettooth_fantasy.cinnamon_sugar": "Cinnamon Sugar",
