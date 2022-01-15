@@ -7,9 +7,7 @@
     "customModelName": "Normal",
     "name": "French Toast",
     "rarity": "COMMON",
-    "specialInfo": [
-      "(You make the texture Isaiah)"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ASweetToothsFantasy"
     },
