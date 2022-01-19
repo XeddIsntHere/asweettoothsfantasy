@@ -3,13 +3,11 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "wip",
+    "texture": "brownie",
     "customModelName": "Normal",
     "name": "Brownie",
     "rarity": "COMMON",
-    "specialInfo": [
-      "(You make the texture Isaiah)"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ASweetToothsFantasy"
     },
